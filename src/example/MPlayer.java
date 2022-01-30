@@ -1,6 +1,7 @@
 package example;
 
 import mindustry.gen.Player;
+import mindustry.type.Weapon;
 
 public class MPlayer {
     String playerName;
@@ -8,11 +9,10 @@ public class MPlayer {
     long experience;
     int xp;
 
-    //TODO пересоздать на нормальный инвентарь со слотами
     Inventory inventory;
-    Object armor; //сюда еще и слоты под тип экипировки
-    //TODO пересоздать на нормальное оружие
-    Object weapon;
+    ArmorInventory armor;
+
+    Weapon weapon;
 
     Player activeModel;
 
