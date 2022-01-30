@@ -1,4 +1,4 @@
-package example.item;
+package example.item.weapon;
 
 public class MagicWeapon extends BaseWeapon{
     int manaCost;
